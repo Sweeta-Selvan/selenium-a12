@@ -48,7 +48,7 @@ opts=webdriver.ChromeOptions()
 opts.add_experimental_option('detach',True)
 driver=webdriver.Chrome(opts)
 
-class Registration:
+class Register:
 
     driver.get('https://www.facebook.com/')
     time.sleep(2)
